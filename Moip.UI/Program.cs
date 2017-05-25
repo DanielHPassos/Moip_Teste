@@ -13,7 +13,7 @@ namespace Moip.UI
         {
             var logProcess = new LogProcess(System.IO.Path.GetFullPath("log.txt"));
             var result = logProcess.Process();
-            logProcess.GetTopUrl(null,0);
+            logProcess.GetTopUrl(result,3);
             Console.WriteLine();
             logProcess.GetTopStatus(result);
 
