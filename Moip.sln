@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Moip.UI", "Moip.UI", "{55E4781D-13BF-427A-9E5C-E9C6D83D1293}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Moip.Model", "Moip.Model", "{A6C79038-F216-4657-A210-E601632C4BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moip.UI", "Moip.UI\Moip.UI.csproj", "{0D356302-FACD-4E2D-A9FC-3349B1E47F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moip.Model", "Moip.Model\Moip.Model.csproj", "{F7DB416E-D288-4400-A457-EB8061E843A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moip.Model.Tests", "Moip.Model.Tests\Moip.Model.Tests.csproj", "{93439112-5B6E-4F64-BCCA-042B03F684A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D356302-FACD-4E2D-A9FC-3349B1E47F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D356302-FACD-4E2D-A9FC-3349B1E47F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D356302-FACD-4E2D-A9FC-3349B1E47F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D356302-FACD-4E2D-A9FC-3349B1E47F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DB416E-D288-4400-A457-EB8061E843A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DB416E-D288-4400-A457-EB8061E843A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DB416E-D288-4400-A457-EB8061E843A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DB416E-D288-4400-A457-EB8061E843A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93439112-5B6E-4F64-BCCA-042B03F684A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93439112-5B6E-4F64-BCCA-042B03F684A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93439112-5B6E-4F64-BCCA-042B03F684A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93439112-5B6E-4F64-BCCA-042B03F684A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D356302-FACD-4E2D-A9FC-3349B1E47F8F} = {55E4781D-13BF-427A-9E5C-E9C6D83D1293}
+		{F7DB416E-D288-4400-A457-EB8061E843A0} = {A6C79038-F216-4657-A210-E601632C4BE6}
+		{93439112-5B6E-4F64-BCCA-042B03F684A9} = {A6C79038-F216-4657-A210-E601632C4BE6}
+	EndGlobalSection
+EndGlobal
